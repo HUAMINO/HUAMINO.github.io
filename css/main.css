@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #edafa3;
+  background: #6f6bff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2653,11 +2653,21 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background: url("../images/background.jpg");
+  position: absolute;
+  left: 10%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
+  background-image: -webkit-radial-gradient(ellipse farthest-corner at center top, #000d4d 0%, #000105 100%);
+  background-image: radial-gradient(ellipse farthest-corner at center top, #000d4d 0%, #000105 100%);
+}
+.container {
+  z-index: 999;
+  position: absolute;
+}
+canvas {
+  position: absolute;
 }
 .content-wrap {
   opacity: 0.9;
