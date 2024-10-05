@@ -1,2 +1,2 @@
 个人博客
-https://huamino.github.io/
+访问路径https://huamino.github.io/
